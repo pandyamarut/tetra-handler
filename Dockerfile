@@ -1,5 +1,5 @@
 # Use CUDA base image for GPU support
-FROM runpod/base:0.6.2-cuda11.1.1
+FROM nvidia/cuda:12.1.0-base-ubuntu22.04 
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
